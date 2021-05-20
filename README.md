@@ -6,7 +6,7 @@ We collect and annotate a large-scale spinal vertebrae CT dataset from multiple 
 
 To build a comprehensive spine dataset that replicates practical appearance variations, we curate a large-scale CT dataset of spinal vertebrae from the following four open sources.
 
-*COLONOG. This sub-dataset comes from the CT COLONOGRAPHY dataset related to a CT colonography trial12. We randomly select one of the two positions (we will open the code for selecting them), which have similar information, of each patient for our dataset . There are 825 CT scans and are in Digital Imaging and Communication in Medicine (DICOM) format.
+*COLONOG. This sub-dataset comes from the CT COLONOGRAPHY dataset related to a CT colonography trial12. We randomly select one of the two positions (we open the code for selecting them, dicom2nii.py), which have similar information, of each patient for our dataset . There are 825 CT scans and are in Digital Imaging and Communication in Medicine (DICOM) format.
 
 *HNSCC-3DCT-RT. This sub-dataset contains three dimensional (3D) high-resolution fan-beam CT scans collected during
 pre-treatment, mid-treatment, and post-treatment using a Siemens 16-slice CT scanner with the standard clinical protocol for head-and-neck squamous cell carcinoma (HNSCC) patients13. These images are in DICOM format.
@@ -24,3 +24,8 @@ review board (IRB) policies of contributing sites. More details for those sub-da
 ![fig1](https://user-images.githubusercontent.com/54644867/118909767-0fe62880-b956-11eb-8def-44001c78741b.PNG)
 
 For more information about CTSpine1K dataset, please read the following paper. Please also cite this paper if you are using CTSpine1K dataset for your research!
+
+# nnUnet
+Follow https://github.com/MIC-DKFZ/nnUNet/commit/058b695d61d34dda7f79cd36ab950a5d3e031653 to set and use nnUnet. The specific usage we here could be seen in ReadMe.md file. The pre-trained model could be seen at:https/
+
+We use the dicom2nii.py file to selcet one of the dataset when the sub-dataset has two CT positions.(eg. CT COLONOGRAPHY dataset) 
