@@ -24,7 +24,7 @@ For more information about CTSpine1K dataset, please read the following paper. P
 # Downloading the CTSpine1K Dataset
 The original images could be downloaded from correspongding URL above. We use the dicom2nii.py file to selcet one of the dataset when the sub-dataset has two CT positions.(eg. CT COLONOGRAPHY dataset) 
 
-The segmentation masks are on [Figshare]()
+The segmentation masks are on [Google drive](https://drive.google.com/file/d/19jUYA7qy19YLLp_12T8UbZTCGO-h4wN_/view?usp=sharing)
 
 # Annotation pipeline with nnUnet
 Follow https://github.com/MIC-DKFZ/nnUNet/commit/058b695d61d34dda7f79cd36ab950a5d3e031653 to set and use nnUnet. The specific usage we here could be seen in ReadMe.md file. The pre-trained model could be seen at:https/. Our annotation pipeline is presented in figure 2 below.
