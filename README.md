@@ -19,8 +19,10 @@ review board (IRB) policies of contributing sites. More details for those sub-da
 ![spine1K](https://user-images.githubusercontent.com/54644867/118909650-e88f5b80-b955-11eb-8a60-e1831a495c99.PNG)
 ![fig1](https://user-images.githubusercontent.com/54644867/118909767-0fe62880-b956-11eb-8def-44001c78741b.PNG)
 
-For more information about CTSpine1K dataset, please read the following paper. Please also cite this paper if you are using CTSpine1K dataset for your research!
-
+For more information about CTSpine1K dataset, please read the following paper. Please also cite this paper if you are using CTSpine1K dataset for your research.
+'''
+Yang Deng, Ce Wang, Yuan Hui, et al. Ctspine1k: A large-scale dataset for spinal vertebrae segmentation in computed tomography. arXiv preprint arXiv:2105.14711 (2021). [arxiv](https://arxiv.org/abs/2105.14711)
+'''
 # Downloading the CTSpine1K Dataset
 The original images could be downloaded from correspongding URL above. We use the dicom2nii.py file to selcet one of the dataset when the sub-dataset has two CT positions.(eg. CT COLONOGRAPHY dataset) 
 
@@ -37,4 +39,6 @@ The benchmarking results are shown in Table 2.
 # Acknowledgement
 Thank Febian's nnUnet. We appreciate the open-source sub-datasets we used. 
 
+ 
+Please feel free to email dengy066@gmail.com if you have any question. 
 
