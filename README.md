@@ -28,7 +28,8 @@ Yang Deng, Ce Wang, Yuan Hui, et al. CtSpine1k: A large-scale dataset for spinal
 # Downloading the CTSpine1K Dataset
 The original images could be downloaded from correspongding URL above. We use the dicom2nii.py file to selcet one of the dataset when the sub-dataset has two CT positions.(eg. CT COLONOGRAPHY dataset) 
 
-The segmentation masks and the pre-trained model are on [Google drive](https://drive.google.com/drive/folders/12kFn2H0xsACqGN3S9lInqizVlbpjNwdj?usp=sharing)
+The segmentation masks and the pre-trained model are on [Google drive](https://drive.google.com/drive/folders/12kFn2H0xsACqGN3S9lInqizVlbpjNwdj?usp=sharing) or [baiduyun](https://pan.baidu.com/s/1nKks1w3cEC89ACkARQMxuw) (password：j0fu) 
+
 
 # Annotation pipeline with nnUnet
 Follow https://github.com/MIC-DKFZ/nnUNet/commit/058b695d61d34dda7f79cd36ab950a5d3e031653 to set and use nnUnet. The specific usage we here could be seen in ReadMe.md file.  Our annotation pipeline is presented in figure 2 below.
