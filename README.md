@@ -17,7 +17,8 @@ We reformat all DICOM images to NIfTI to simplify data processing and de-identif
 review board (IRB) policies of contributing sites. More details for those sub-datasets could be found in12–15. All existing sub-datasets are under Creative Commons license CC-BY-NC-SA and we will keep the license unchanged. It should be noted that for sub-dataset task03_liver and sub-dataset COVID-19, we only choose a part of cases from them, and in all these data sources, we exclude those cases of very low quality. The overview of our dataset and the thorough comparison with the [VerSe Challenge](https://verse2020.grand-challenge.org/) dataset (*We only chose those samples which are not cropped*) can be seen in Table 1.
 
 ![spine1K](https://user-images.githubusercontent.com/54644867/118909650-e88f5b80-b955-11eb-8a60-e1831a495c99.PNG)
-![fig1](https://user-images.githubusercontent.com/54644867/118909767-0fe62880-b956-11eb-8def-44001c78741b.PNG)
+![S](https://user-images.githubusercontent.com/54644867/121297216-91612300-c924-11eb-9313-68f4d1b88d5b.PNG)
+
 
 For more information about CTSpine1K dataset, please read the following paper. Please also cite this [paper](https://arxiv.org/abs/2105.14711) if you are using CTSpine1K dataset for your research.
 
