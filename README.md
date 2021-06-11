@@ -1,5 +1,5 @@
 # Update 6/11/2021
-We upload the patients' ids in id.csv for COLONOG dataset and HNSCC-3DCT-RT dataset and delete the dicom2nii.py file. We also upload the original CT images to [Baiduyun](https://pan.baidu.com/s/12_HKeYtKnTyUkGXs8mpIQQ) (password：send email to dengy066@gmail.com)
+We upload the Path.csv to clarify the CT positions we used for COLONOG dataset and HNSCC-3DCT-RT dataset, and delete the dicom2nii.py file. We also upload the original CT images to [Baiduyun](https://pan.baidu.com/s/12_HKeYtKnTyUkGXs8mpIQQ) (password：send email to dengy066@gmail.com)
 
 # Introduction for the CTSpine1K dataset
 To advance the research in spinal image analysis, we hereby present a large-scale and comprehensive dataset: CTSpine1K.
@@ -30,7 +30,7 @@ Yang Deng, Ce Wang, Yuan Hui, et al. CtSpine1k: A large-scale dataset for spinal
 ```
 
 # Downloading the CTSpine1K Dataset
-The original images could be downloaded from correspongding URL above. We use the dicom2nii.py file to selcet one of the dataset when the sub-dataset has two CT positions.(eg. CT COLONOGRAPHY dataset) 
+The original images could be downloaded from correspongding URL above. 
 
 The segmentation masks and the pre-trained model are on [Google drive](https://drive.google.com/drive/folders/12kFn2H0xsACqGN3S9lInqizVlbpjNwdj?usp=sharing) or [Baiduyun](https://pan.baidu.com/s/12_HKeYtKnTyUkGXs8mpIQQ) (password：send email to dengy066@gmail.com) 
 
