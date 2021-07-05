@@ -1,3 +1,11 @@
+# Update 7/5/2021
+Note that for VerSe dataset partially visible vertebrae at the top or bottom of the scan (or both) were not annotated, while CTSpine1K annotated them, which caused the situation that in our previous-version paper the reported dice value on VerSe dataset is much lower than on CTSpine1K dataset (0.619 VS 0.840). Therefore, we annotated all visible vertebrea (see figure below) and recalculated the metrics(0.766 VS 0.840). 
+
+We have updated our paper on [arxiv](https://arxiv.org/abs/2105.14711) and uploaded the completed annotations for VerSe dataset to Google drive [Google drive](https://drive.google.com/drive/folders/12kFn2H0xsACqGN3S9lInqizVlbpjNwdj?usp=sharing) and [Baiduyun](https://pan.baidu.com/s/10oF_QMKt1RbEK4NyEasEXQ) (password：send email to dengy066@gmail.com).
+![label](https://user-images.githubusercontent.com/54644867/124413086-8a41ff00-dd82-11eb-8a18-84279b85788b.PNG)
+
+Besides, we updated a more specific biconcave fracture case on Figure 1(F).
+
 # Update 6/11/2021
 We upload the Path.csv to clarify the CT positions we used for COLONOG dataset and HNSCC-3DCT-RT dataset, and delete the dicom2nii.py file. We also upload the original CT images to [Baiduyun](https://pan.baidu.com/s/10oF_QMKt1RbEK4NyEasEXQ) (password：send email to dengy066@gmail.com)
 
@@ -20,7 +28,8 @@ We reformat all DICOM images to NIfTI to simplify data processing and de-identif
 review board (IRB) policies of contributing sites. More details for those sub-datasets could be found in12–15. All existing sub-datasets are under Creative Commons license CC-BY-NC-SA and we will keep the license unchanged. It should be noted that for sub-dataset task03_liver and sub-dataset COVID-19, we only choose a part of cases from them, and in all these data sources, we exclude those cases of very low quality. The overview of our dataset and the thorough comparison with the [VerSe Challenge](https://verse2020.grand-challenge.org/) dataset (*We only chose those samples which are not cropped*) can be seen in Table 1.
 
 ![spine1K](https://user-images.githubusercontent.com/54644867/118909650-e88f5b80-b955-11eb-8a60-e1831a495c99.PNG)
-![S](https://user-images.githubusercontent.com/54644867/121297216-91612300-c924-11eb-9313-68f4d1b88d5b.PNG)
+![situation](https://user-images.githubusercontent.com/54644867/124413701-bdd15900-dd83-11eb-9b02-b2270aec077b.PNG)
+
 
 
 For more information about CTSpine1K dataset, please read the following paper. Please also cite this [paper](https://arxiv.org/abs/2105.14711) if you are using CTSpine1K dataset for your research.
@@ -41,12 +50,12 @@ Follow https://github.com/MIC-DKFZ/nnUNet/commit/058b695d61d34dda7f79cd36ab950a5
 
 # Benchmarking results
 The benchmarking results are shown in Table 2.
-![results](https://user-images.githubusercontent.com/54644867/118924388-9c511500-b96f-11eb-84c9-788234f66a2b.PNG)
+![table](https://user-images.githubusercontent.com/54644867/124412945-346d5700-dd82-11eb-8be5-e81c36a2fae1.PNG)
 
 # Acknowledgement
 Thank Febian's nnUnet and we appreciate the open-source sub-datasets we used. 
 
-Thank Jianji Wang (MD) for his help in Fig.1(F)
+Thank Jianji Wang and Guoxin Fan(MD) for their help in Fig.1(F)
  
 Please feel free to email dengy066@gmail.com if you have any question. 
 
