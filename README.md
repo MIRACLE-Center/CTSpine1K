@@ -1,3 +1,6 @@
+# Update 1/21/2022
+We uploaded the data_split file in data_split.txt, which splited the dataset into trainset, test_public and test_private as our paper described. Meanwhile, we uploaded this file to  [Baiduyun](https://pan.baidu.com/s/10oF_QMKt1RbEK4NyEasEXQ).
+
 # Update 7/5/2021
 Note that for VerSe dataset partially visible vertebrae at the top or bottom of the scan (or both) were not annotated, while CTSpine1K annotated them, which caused the situation that in our previous-version paper the reported dice value on VerSe dataset is much lower than on CTSpine1K dataset (0.619 VS 0.840). Therefore, we annotated all visible vertebrea (see figure below) and recalculated the metrics(0.766 VS 0.840). 
 
