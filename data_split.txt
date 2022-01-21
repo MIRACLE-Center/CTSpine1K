@@ -1007,4 +1007,4 @@ volume-covid19-A-0288_ct.nii.gz
 volume-covid19-A-0301_ct.nii.gz
 volume-covid19-A-0313_ct.nii.gz
 volume-covid19-A-0316_ct.nii.gz
-volume-covid19-A-0319_ct.nii.gzvolume-covid19-A-0319_ct.nii.gz
+volume-covid19-A-0319_ct.nii.gz
