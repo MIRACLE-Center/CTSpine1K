@@ -1,3 +1,6 @@
+# Update 3/22/2025
+Our dataset has been uploaded to [Google Drive](https://drive.google.com/drive/folders/1Acyuu7ZmbjnS4mkJRdiUfkXx5SBta4EM?usp=sharing), **where we recommend downloading all CT images and annotations for those people outside China who cannot access Baiduyun.** Thank **Dr. Chun Xie** from the University of Tsukuba for providing this mirror link.
+
 # Update 8/29/2024
 Our paper has been accepted by [MICCAI 2024 Open Data](https://conferences.miccai.org/2024/en/OPEN-DATA.html) for oral presentation. Meanwhile, we uploaded our dataset to the AFRICAI repository of [XNAT](https://xnat.bmia.nl/data/archive/projects/africai_miccai2024_ctspine1k), **where we recommend downloading all CT images and annotations**. 
 
