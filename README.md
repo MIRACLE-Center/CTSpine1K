@@ -1,3 +1,6 @@
+# Update 5/25/2025
+Our dataset has been uploaded to [Hugging Face](https://huggingface.co/datasets/alexanderdann/CTSpine1K), where you can download the dataset automatically. Thank [Alexander Dann](https://github.com/alexanderdann) for his hard work!
+
 # Update 3/22/2025
 Our dataset has been uploaded to [Google Drive](https://drive.google.com/drive/folders/1Acyuu7ZmbjnS4mkJRdiUfkXx5SBta4EM?usp=sharing), **where we recommend downloading all CT images and annotations for those people outside China who cannot access Baiduyun.** Thank **Dr. Chun Xie** from the University of Tsukuba for providing this mirror link.
 
